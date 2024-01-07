@@ -1,0 +1,16 @@
+.grid-square{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+
+.grid-square:hover{
+    background-color: blue;
+}
+
+.grid-container{
+    display: grid;
+    width: 960px;
+    height: 960px;
+}
