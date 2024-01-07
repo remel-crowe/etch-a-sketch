@@ -1,16 +1,32 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .grid-square{
     background-color: rgb(255, 255, 255);
-    height: 60px;
-    width: 60px;
+    height: 20px;
+    width: 20px;
     border: 1px solid black;
 }
-
-.grid-square:hover{
-    background-color: blue;
-}
-
 .grid-container{
     display: grid;
-    width: 960px;
-    height: 960px;
+    width: 380px;
+    height: 380px;
+    overflow-y: hidden;
+}
+
+.settings-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.stage{
+    display: flex;
+    flex-direction: row;
+    
+
 }

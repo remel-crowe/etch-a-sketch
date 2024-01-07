@@ -1,4 +1,16 @@
 let gridContainer = document.getElementsByClassName("grid-container")[0];
+let sizeValue = document.getElementById("sizeValue");
+let sizeSlider = document.getElementById("sizeSlider");
+let colourButton = document.getElementById("colourButton");
+let rainbowButton = document.getElementById("rainbowButton");
+let colours = ["green", "red", "blue", "pink", "yellow", "orange", "black"];
+
+function handleChange() {
+  let gridSize = sizeSlider.value;
+  sizeValue.innerHTML = `${gridSize} x ${gridSize}`;
+  clearGrid();
+  createGrid(gridSize);
+}
 
 function createGrid(num) {
   gridContainer.style.gridTemplateRows = `repeat(${num}, 1fr)`;
@@ -10,18 +22,17 @@ function createGrid(num) {
     gridContainer.appendChild(gridSquare);
   }
 }
-
 function clearGrid() {
   while (gridContainer.lastElementChild) {
     gridContainer.removeChild(gridContainer.lastElementChild);
   }
 }
 
-let btn = document.getElementsByClassName("grid-scale")[0];
-btn.addEventListener("click", () => {
-  let num = parseInt(prompt("How big do you want the grid to be?"));
-  clearGrid();
-  createGrid(num);
-});
+sizeSlider.addEventListener("change", handleChange);
 
-createGrid(16);
+gridContainer.addEventListener("mouseover", (event) => {
+  if (event.target.classList.contains("grid-square")) {
+    event.target.style.background =
+      colours[Math.floor(Math.random() * colours.length)];
+  }
+});
