@@ -14,8 +14,7 @@ This is a simple web-based Etch-a-Sketch application where you can let your crea
 
 ## Screenshots
 
-Insert some screenshots here to showcase the application in action. You might want to include different stages of a drawing or highlight specific features.
-
+Insert some screenshots here
 ### Home Screen
 ![Home Screen](insert_link_here)
 
@@ -30,3 +29,12 @@ Insert some screenshots here to showcase the application in action. You might wa
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/etch-a-sketch.git
+2. **Open 'index.html':**  Open the `index.html` file in your preferred web browser to start sketching
+3. **Start Drawing:**  Use your mouse to create beautiful drawings on the Etch-a-Sketch canvas
+
+
+## Contributions
+Feel free to contribute to make this project even better! Whether it's bug fixes, new features, or improvements to the UI, your contributions are welcome.
+
+## Features
+Thanks to The Odin Project for inspiring and guiding me through this project.
