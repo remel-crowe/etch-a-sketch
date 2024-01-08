@@ -1,32 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* MAIN WINDOW */
+.title{
+    font-family: 'Rubik Glitch', system-ui;
+    margin: 40px;
+}
 .main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #ededed;
+    height: 100vh;
+    width: 100vw;
 }
-
-.grid-square{
-    background-color: rgb(255, 255, 255);
-    height: 20px;
-    width: 20px;
-    border: 1px solid black;
-}
-.grid-container{
-    display: grid;
-    width: 380px;
-    height: 380px;
-    overflow-y: hidden;
-}
-
-.settings-container {
-    display: flex;
-    flex-direction: column;
-}
-
 
 .stage{
     display: flex;
     flex-direction: row;
-    
-
+    gap: 30px;
 }
+
+/* GRID */
+
+.grid-square{
+    background-color: rgb(255, 255, 255);
+}
+.grid-container{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* SETTINGS/BUTTONS */
+
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.btn {
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.size-value{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    font-size: large;
+    margin-bottom: 0;
+}
+
+input[type='range'] {
+    -webkit-appearance: none;
+    background-color: rgba(0, 0, 0, 0.24);
+  }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 24px;
+    margin-top: -8px;
+    background: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
