@@ -14,15 +14,14 @@ This is a simple web-based Etch-a-Sketch application where you can let your crea
 
 ## Screenshots
 
-Insert some screenshots here
 ### Home Screen
 ![Home Screen](https://i.ibb.co/ZMzq3LP/Screenshot-2024-01-19-at-22-23-54.png)
 
 ### Drawing in Progress
-![Drawing](insert_link_here)
+![Drawing](https://i.ibb.co/gJ3jH3K/Screenshot-2024-01-19-at-22-30-18.png)
 
 ### Color Palette
-![Color Palette](insert_link_here)
+![Color Palette](https://i.ibb.co/pf1Kcyr/Screenshot-2024-01-19-at-22-31-53.png)
 
 ## Getting Started
 
