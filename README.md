@@ -16,7 +16,7 @@ This is a simple web-based Etch-a-Sketch application where you can let your crea
 
 Insert some screenshots here
 ### Home Screen
-![Home Screen](insert_link_here)
+![Home Screen](https://ibb.co/P6GqRmn)
 
 ### Drawing in Progress
 ![Drawing](insert_link_here)
