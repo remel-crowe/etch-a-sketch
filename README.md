@@ -1,6 +1,6 @@
 # Etch-a-Sketch Project
 
-Hey there! 👋 Welcome to my Etch-a-Sketch project repository. I had a blast building this using HTML, CSS, and JavaScript, and I'm excited to share it with you.
+Hey there! 👋 Welcome to my Etch-a-Sketch project repository. I built this using HTML, CSS, and JavaScript, and I'm excited to share it with you.
 
 ## Overview
 
